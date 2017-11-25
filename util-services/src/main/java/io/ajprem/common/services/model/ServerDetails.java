@@ -4,7 +4,7 @@
 package io.ajprem.common.services.model;
 
 /**
- * Class to store and transfer different server details of Banyan
+ * Class to store and transfer different server details
  *
  */
 public class ServerDetails {

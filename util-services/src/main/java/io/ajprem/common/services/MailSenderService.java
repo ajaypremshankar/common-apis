@@ -9,10 +9,6 @@ import org.springframework.mail.SimpleMailMessage;
 
 
 
-/**
- * @author GZTX0077
- *
- */
 @SuppressWarnings("rawtypes")
 public interface MailSenderService {
 

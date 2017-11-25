@@ -81,13 +81,7 @@ public class RestClientServiceImpl extends BaseServiceImpl implements RestClient
 		return url.toString();
 	}
 
-	/*
-	 * (non-Javadoc)
-	 *
-	 * @see
-	 * com.orange.banyan.common.service.RestClientService#setServerDetails(com.
-	 * orange.banyan.common.servers.BnyServerDetails)
-	 */
+
 	@Override
 	public void setServerDetails(final ServerDetails serverDetails) {
 		this.serverDetails = serverDetails;

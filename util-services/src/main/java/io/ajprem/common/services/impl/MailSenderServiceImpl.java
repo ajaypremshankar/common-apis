@@ -21,10 +21,6 @@ import freemarker.template.Template;
 import freemarker.template.TemplateException;
 import io.ajprem.common.services.MailSenderService;
 
-/**
- * @author GZTX0077
- *
- */
 @SuppressWarnings("rawtypes")
 @Service("mailSenderService")
 public class MailSenderServiceImpl implements MailSenderService {
@@ -37,12 +33,6 @@ public class MailSenderServiceImpl implements MailSenderService {
 
 	private static final String DEFAULT_ENCODING = "utf-8";
 
-	/*
-	 * (non-Javadoc)
-	 *
-	 * @see com.orange.banyan.identity.common.service.MailSenderService#triggerMail(
-	 * org.springframework.mail.SimpleMailMessage)
-	 */
 	@Override
 	public boolean triggerMail(final SimpleMailMessage message) {
 
